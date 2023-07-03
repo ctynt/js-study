@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        console.log(11+11) //22
+        console.log(+'11'+11) //22
+        console.log('11'+11) //1111
+        console.log(11-11) //0
+        console.log('11'-11) //0
+        console.log(typeof '123')
+        console.log(typeof +'123')
+
+        let num = '123'
+        console.log(Number(num))
+        let number = +prompt("输入年薪")
+        console.log(typeof number)
+        console.log(parseInt("12.2ab"))//开头只能是数字，否则输出NaN
+        console.log(parseFloat("12.0"))
+    </script>
+
+</body>
+
+</html>
