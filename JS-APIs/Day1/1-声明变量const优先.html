@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 变量声明 const语义化更好，优先。
+        // 值在变化用let
+        const arr = ['red','pink']
+        // arr.push('blue')
+        // console.log(arr)
+        // 数组的变化可以用const,数组复杂类型地址放在栈中，内容放在堆中。地址不变可以是使用const
+        arr = [1,2,3]
+        console.log(arr)
+        //报错，两个数组地址更换，const报错
+
+    </script>
+</body>
+
+</html>
